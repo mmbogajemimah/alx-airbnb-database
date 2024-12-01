@@ -5,8 +5,8 @@ INNER JOIN Users ON Bookings.user_id = Users.id;
 
 
 -- Write a query using aLEFT JOIN to retrieve all properties and their reviews, including properties that have no reviews.
-SELECT * 
-FROM Property 
+SELECT *
+FROM Property
 LEFT JOIN Reviews ON Property.id = Reviews.property_id;
 
 
